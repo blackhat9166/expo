@@ -5,10 +5,11 @@ import math
 import datetime
 import keyboard
 import threading
+import trajactory
 
-
-h = 1
-w = 1
+w,h = trajactory.terajactory()
+w = int(w)
+h = int (h)
 n =1
 cap = cv2.VideoCapture(0)
 i_time = 0
